@@ -11,6 +11,10 @@ body {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* FF8B13 */
 
 .board {
@@ -20,10 +24,23 @@ body {
   border: 0.5em solid #ccc;
   display: flex;
   flex-direction: column;
+  border-radius: 1em;
 }
 
 .row {
   flex: 33%;
   display: flex;
   flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  height: 100%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: #FF8B13;
+  font-family: 'Caveat Brush', cursive;
 }
