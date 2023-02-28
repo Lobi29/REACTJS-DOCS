@@ -31,43 +31,43 @@ function App() {
       <div className="board">
 
         <div className="row">
-          <Square val={"X"} chooseSquare={() => {
+          <Square val={board[0]} onSquareClick={() => {
             chooseSquare(0);
           }}
           />
-          <Square val={board[1]} chooseSquare={() => {
+          <Square val={board[1]} onSquareClick={() => {
             chooseSquare(1);
           }}
           />
-          <Square val={board[2]} chooseSquare={() => {
+          <Square val={board[2]} onSquareClick={() => {
             chooseSquare(2);
           }}
           />
         </div>
         <div className="row">
-          <Square val={board[3]} chooseSquare={() => {
+          <Square val={board[3]} onSquareClick={() => {
             chooseSquare(3);
           }}
           />
-          <Square val={board[4]} chooseSquare={() => {
+          <Square val={board[4]} onSquareClick={() => {
             chooseSquare(4);
           }}
           />
-          <Square val={board[5]} chooseSquare={() => {
+          <Square val={board[5]} onSquareClick={() => {
             chooseSquare(5);
           }}
           />
         </div>
         <div className="row">
-          <Square val={board[6]} chooseSquare={() => {
+          <Square val={board[6]} onSquareClick={() => {
             chooseSquare(6);
           }}
           />
-          <Square val={board[7]} chooseSquare={() => {
+          <Square val={board[7]} onSquareClick={() => {
             chooseSquare(7);
           }}
           />
-          <Square val={board[8]} chooseSquare={() => {
+          <Square val={board[8]} onSquareClick={() => {
             chooseSquare(8);
           }}
           />
@@ -80,5 +80,5 @@ function App() {
 export default App;
 
 
-// {/* <Square val={board[0]} chooseSquare={() => { alert(0); }}
+// {/* <Square val={board[0]} onSquareClick={() => { alert(0); }}
 // /> */}

@@ -44,3 +44,8 @@ body {
   color: #FF8B13;
   font-family: 'Caveat Brush', cursive;
 }
+
+
+.square:active {
+  background-color: #315779;
+}
