@@ -1,12 +1,12 @@
 import React from 'react';
 import "../App.css";
 
-function Square({val, onSquareClick}) {
+function Square({value, onSquareClick}) {
     return (
-        <div className="square" onClick={onSquareClick}>
-            {val}
-        </div>
-    )
+        <button className="square" onClick={onSquareClick}>
+            {value}
+        </button>
+    );
 }
 
 export default Square;
