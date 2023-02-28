@@ -49,3 +49,15 @@ body {
 .square:active {
   background-color: #315779;
 }
+
+.status {
+  margin-top: 1em;
+  font-size: 2em;
+  font-family: cursive;
+  width: 100vw;
+  height: 3em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
