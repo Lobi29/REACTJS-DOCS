@@ -65,7 +65,7 @@ function App() {
             />
           </div>
           <div className="row">
-            <Square valueue={squares[6]} onSquareClick={() => {
+            <Square value={squares[6]} onSquareClick={() => {
               handleClick(6);
             }}
             />
